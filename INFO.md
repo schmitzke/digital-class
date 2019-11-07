@@ -58,6 +58,7 @@ autocomplete
 ```
 TAB
 ```
+
 </details>
 
 <details>
@@ -115,6 +116,22 @@ In einen Ordner gehen
 ```
 cd verzeichnisname
 ```
+
+letzte Befehle durchgehen
+```
+↑
+```
+
+letzte Eingabe nehmen und an der Stelle ausgeben
+```
+!!
+```
+
+Befehl abbrechen
+```
+strg + c
+```
+
 </details>
 
 <details>
