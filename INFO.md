@@ -2,6 +2,15 @@
 
 #### AGENDA
 
+* Terminal Setup und Kommandos
+* (bash profile = optional)
+* Nodejs Setup und npm Kommandos
+* SublimeText installieren und starten
+* React installieren und erste App zum Laufen bringen
+* Erste Schritte in React
+* The Cat Empire
+* (Wenn noch Zeit ist) Advanced React: State, Hooks & Context
+
 #### iTerm2 installieren
 
 ```
@@ -217,9 +226,3 @@ React app generieren
 cra responsive
 cd responsive
 ```
-
-#### react basics
-#### JSX Struktur
-#### CSS3 flexbox
-#### react advanced: content & hooks
-#### wrap-up
