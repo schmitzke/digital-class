@@ -1,7 +1,5 @@
 # Webdevelopment Basis-Setup & responsive Website in React
 
-#### AGENDA
-
 #### iTerm2 installieren
 
 ```
