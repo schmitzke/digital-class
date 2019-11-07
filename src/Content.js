@@ -8,22 +8,6 @@ const style = {
     background: '#ccc',
 }
 
-const rowStyle = {
-    display: 'flex',
-}
-
-const leftColumnStyle = {
-    flex: '30%',
-    backgroundColor: '#f1f1f1',
-    padding: '20px',
-}
-
-const rightColumnStyle = {
-    flex: '70%',
-    backgroundColor: 'white',
-    padding: '20px',
-}
-
 const catStyle = {
     height: '200px',
     width: '100%',
@@ -31,29 +15,44 @@ const catStyle = {
     objectFit: 'cover',
 }
 
+const leftColumn = {
+    flex: '30%',
+    background: '#f1f1f1',
+    padding: '20px',
+}
+
+const rightColumn = {
+    flex: '70%',
+    background: 'white',
+    padding: '20px',
+}
+
+const rowStyle = {
+    display: 'flex',
+}
+
 export const Content = () => {
-    return(
+    return (
         <div style={style} className="Content">
             <div style={rowStyle} className="Row">
 
-                <div style={leftColumnStyle} className="leftColumn">
-                    <h1>Hi there</h1>
-                    <img style={catStyle} className="CatContainer" src={catImageSquare} />
+                <div style={leftColumn}>
+                    <h1>Hello from my cat!</h1>
+                    <img style={catStyle} src={catImageSquare} />
                     <p>This is a text about cats</p>
                 </div>
 
-                <div style={rightColumnStyle} className="rightColumn">
-                    <h1>Welcome to my cat empire</h1>
-                    <img style={catStyle} className="CatContainer" src={catImageRect} />
+                <div style={rightColumn}>
+                    <h1>Welcome to the cat empire</h1>
+                    <img style={catStyle} src={catImageRect} />
                     <p>
                         A heartbeat later, the spear struck the deer’s breast with such force that the creature was knocked to the ground. Unable to rise, she thrashed her neck and flailed her long, slender legs. Po ran past Larth and Lara. When he reached the deer, he pulled the spear free and stabbed the creature again. The deer released a stifled noise, like a gasp, and stopped moving.
                         There was a cheer from the group. Instead of yet another dinner of fish from the river, tonight there would be venison.
                         The distance from the riverbank to the island was not great, but at this time of year—early summer—the river was too high to wade across. Lara’s people had long ago made simple rafts of branches lashed together with leather thongs, which they left on the riverbanks, repairing and replacing them as needed. When they last passed this way, there had been three rafts, all in good condition, left on the east bank. Two of the rafts were still
                     </p>
                 </div>
+
             </div>
         </div>
     );
 }
-
-export default Content;

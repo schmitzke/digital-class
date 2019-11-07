@@ -8,11 +8,9 @@ const style = {
 }
 
 export const Header = () => {
-    return(
+    return (
         <div style={style} className="Header">
-            <h1>my cat empire</h1>
+            <h1>the cat empire</h1>
         </div>
     );
 }
-
-export default Header;

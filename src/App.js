@@ -5,13 +5,17 @@ import { Navbar } from './Navbar';
 import { Content } from './Content';
 import { Footer } from './Footer';
 
-export const App = () => {
-    return(
+const App = () => {
+    return (
         <div className="App">
             <Header />
             <Navbar />
             <Content />
-            <Footer />
+
+            <Footer>
+                <Navbar />
+                <Navbar />
+            </Footer>
         </div>
     );
 }
